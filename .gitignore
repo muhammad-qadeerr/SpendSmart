@@ -1,0 +1,12 @@
+# Ignore Visual Studio and project files
+.vs/
+bin/
+obj/
+*.user
+
+# Ignore specific configuration files
+appsettings.Development.json
+appsettings.json
+
+# Ignore migrations
+Migrations/
