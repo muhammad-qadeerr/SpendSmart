@@ -75,7 +75,7 @@ namespace ExpenseTracker.Controllers
                 .Select(k => new SplineChartData
                 {
                     day = k.First().TransactionDate.ToString("dd-MMM"),
-                    income = k.Sum(l => l.Amount),
+                    expense = k.Sum(l => l.Amount),
                 }).ToList();
 
 
